@@ -1,18 +1,23 @@
 {
-  "name": "reto5",
+  "name": "reto_5",
   "version": "1.0.0",
-  "description": "Proyecto con Sass",
+  "description": "Trabajando con preprocesador de css - Sass",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "compile:sass": "node-sass sass/main.scss css/style.css --watch"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Christian AP",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crappe91/Reto_5.git"
+  },
+  "keywords": [],
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crappe91/Reto_5/issues"
+  },
+  "homepage": "https://github.com/crappe91/Reto_5#readme",
   "dependencies": {
-    "bootstrap": "^5.2.3",
-    "bootstrap-icons": "^1.10.3",
-    "material-icons": "^1.13.1",
-    "node-sass": "^8.0.0"
+    "bootstrap": "^5.3.0-alpha1"
   }
 }
