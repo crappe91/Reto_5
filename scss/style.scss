@@ -10,7 +10,7 @@ $aux-oscuro: #000000;
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
-$font_aton:'Anton', sans-serif;
+$font_aton: 'Anton', sans-serif;
 
 
 
@@ -142,21 +142,21 @@ $font_aton:'Anton', sans-serif;
             }
 
             table
+            {
+                tr
                 {
-                    tr
+                    td
                     {
-                        td
-                        {
-                            font-size: 20px;
-                        }
+                        font-size: 20px;
                     }
                 }
+            }
         }
 
         //Cuando el body tenga la clase oscuro, al pulsar el botón
         &.oscuro
         {
-           
+
             font-family: $font_aton;
             background: $primary-oscuro;
             transition: .5s ease all;
